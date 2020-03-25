@@ -5,7 +5,9 @@ const App = () => {
   return (
     <div>
       <h1>Hello, World!</h1>
-      <Person />
+      <Person name="Margit" age="39" />
+      <Person name="Criselle" age="20" />
+      <Person name="Karin" age="42" />
     </div>
   );
 };

@@ -1,10 +1,12 @@
 import React from "react";
 import "./Person.css";
 
-const Person = () => {
+const Person = props => {
   return (
     <div className="persons-card">
-      <p>I am Margit and I am 39 years old.</p>
+      <p>
+        I am {props.name} and I am {props.age} years old.
+      </p>
     </div>
   );
 };
