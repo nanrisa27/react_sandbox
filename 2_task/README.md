@@ -3,7 +3,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Boxes
 
 This is a bare minimum example of creating component and rendering it to root element.
-
-## Screenshot
-
-![1_task screenshot](./public/2_task.png?raw=true)
