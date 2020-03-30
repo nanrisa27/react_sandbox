@@ -1,6 +1,12 @@
+main {
+  padding: 1rem;
+  text-align: center;
+  min-height: calc(100vh - 240px);
+}
+
 .likes {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   box-shadow: 0 0 5px rgb(133, 133, 133);
   padding: 1rem;
@@ -16,4 +22,14 @@
 
 .odd {
   background-color: lightgoldenrodyellow;
+}
+
+main button {
+  padding: 1rem;
+  box-shadow: none;
+  margin: 1rem;
+  border: none;
+  background: lightgray;
+  border-radius: 5px;
+  font-size: 1rem;
 }

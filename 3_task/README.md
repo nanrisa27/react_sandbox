@@ -6,4 +6,10 @@ Third task is a counter where we learn how to handle events, manipulate states a
 
 ## Screenshot
 
-![3_task screenshot](./public/3_task.png?raw=true)
+### Desktop
+
+![3_task screenshot desktop](./src/img/3_taskD.png?raw=true)
+
+### Mobile
+
+![3_task screenshot mobile](./src/img/3_taskM.png?raw=true)
