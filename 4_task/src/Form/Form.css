@@ -1,0 +1,25 @@
+.form {
+  background: rgb(11, 57, 95);
+  color: white;
+}
+form {
+  padding: 2rem;
+}
+label {
+  width: 150px;
+  display: inline-block;
+}
+
+form div {
+  margin: 1rem;
+}
+
+input,
+textarea {
+  background: #f4f4f4;
+  border: 1px solid rgb(102, 102, 102);
+  width: 250px;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
