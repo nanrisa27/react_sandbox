@@ -5,7 +5,7 @@ import Footer from "./Footer/Footer";
 
 class App extends Component {
   state = {
-    likes: 0
+    likes: 0,
   };
 
   addHandler = () => {
@@ -24,11 +24,21 @@ class App extends Component {
   };
 
   render() {
+    let circleClass = [];
+
+    if (this.state.likes === 0) {
+      circleClass = "likes";
+    } else if (this.state.likes % 2 === 0) {
+      circleClass = "likes even";
+    } else {
+      circleClass = "likes odd";
+    }
+
     return (
       <div>
         <Header />
         <main>
-          <h1 className={this.state.likes === 0 ? "likes" : this.state.likes % 2 === 0 ? "likes even" : "likes odd"}>Total likes: {this.state.likes}</h1>
+          <h1 className={circleClass}>Total likes: {this.state.likes}</h1>
           <div className="button-group">
             <button onClick={this.addHandler}>Add like</button>
             <button onClick={this.removeHandler}>Remove like</button>
