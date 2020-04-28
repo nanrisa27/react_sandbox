@@ -1,0 +1,14 @@
+.circle {
+  height: 150px;
+  width: 150px;
+  background: #efefef;
+  box-shadow: 0 0 3px #333;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.circle.active {
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
+  background: url("/assets/simonthecat.jpg") no-repeat center center / cover;
+}

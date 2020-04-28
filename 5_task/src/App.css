@@ -1,0 +1,11 @@
+button {
+  font-family: inherit;
+  padding: 1rem;
+  margin: 1rem;
+  background: white;
+  box-shadow: 0 0 5px #747474;
+  border: none;
+  border: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
