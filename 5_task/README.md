@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Practicing lists and keys
+## Speedgame
 
-This is an example of posts view.
+Updating states
 
 ## Screenshot
 
