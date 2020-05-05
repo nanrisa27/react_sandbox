@@ -12,6 +12,9 @@ const Nav = () => {
           <li>
             <Link to="/blog">Blog</Link>
           </li>
+          <li>
+            <Link to="/newpost">New Post</Link>
+          </li>
         </ul>
       </nav>
     </div>

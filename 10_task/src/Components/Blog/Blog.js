@@ -27,7 +27,12 @@ const Blog = () => {
         <Route path="/blog/:postId">
           <FullPost />
         </Route>
-        <Route path={match.path}>{PostList}</Route>
+        <Route path={match.path}>
+          <div>
+            <h1>Blog</h1>
+            {PostList}
+          </div>
+        </Route>
       </Switch>
     </>
   );
